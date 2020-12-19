@@ -207,11 +207,12 @@ footer{
 .feet h1{
   /* line-height: 20vh; */
   font-size: 2.5vw;
-  margin-top: 5vh;
+  margin-top: 3vh;
 }
 .feet p{
   font-size: 1.8vw;
-  margin-top: 4vh;
+  margin-top: 3vh;
+  text-align: center;
   font-family: 'Raleway', sans-serif;
 }
 @keyframes slideshow {
@@ -357,24 +358,28 @@ footer{
      /* background: black; */
    }
    .dropdown-content{
-     /* background: yellow; */
-     display: none;
-     position:absolute;
-     box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.4);
-     background: linear-gradient(45deg,#0a0f0f,black );
-     margin-left: 20%;
-   }
-   .dropdown-content a{
-     color: white;
-     text-decoration: none;
-     font-size: 2vw;
-   }
-   .dropdown-content a:hover{
-     /* background: black; */
-     text-decoration:underline;
-     font-size: 2.2vw;
-
-   }
+  /* background: yellow; */
+  display: none;
+  position:absolute;
+  /* margin-top: 2vh; */
+  text-transform: none;
+  box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.4);
+  /* background: linear-gradient(45deg,#6600cc,#99ccff); */
+  background: white;
+}
+.dropdown-content a{
+  /* color: white; */
+  color: #6600cc;
+  text-decoration: none;
+  font-size: 1.3vw;
+}
+.dropdown-content a:hover{
+  /* background: linear-gradient(45deg,#99ccff,#6600cc); */
+  text-decoration: none;
+  font-size: 1.5vw;
+  color: white;
+  background: #6600cc;
+}
    .dropdown:hover .dropdown-content{
      display: flex;
      flex-direction: column;
