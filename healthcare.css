@@ -108,18 +108,20 @@ nav{
   display: none;
   position:absolute;
   /* margin-top: 2vh; */
+  /* text-transform: none; */
   box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.4);
-  background: linear-gradient(45deg,#6600cc,#99ccff);
+  /* background: linear-gradient(45deg,#6600cc,#99ccff); */
+  background: white;
+  /* border-bottom: 2px red; */
 }
 .dropdown-content a{
-  color: white;
+  /* color: white; */
+  color: #6600cc;
+  /* padding-left:0.5%; */
+  /* margin-left: 5%; */
   text-decoration: none;
+  text-transform: none;
   font-size: 1.3vw;
-}
-.dropdown-content a:hover{
-  background: linear-gradient(45deg,#99ccff,#6600cc);
-  text-decoration: none;
-  font-size: 1.5vw;
 }
 .dropdown:hover .dropdown-content{
   display: flex;
