@@ -112,6 +112,7 @@ nav{
   /* color: white; */
   color: #6600cc;
   text-decoration: none;
+  text-transform: none;
   font-size: 1.3vw;
 }
 .dropdown-content a:hover{
